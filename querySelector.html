@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+</head>
+<body>
+    <!-- <div>
+        <span> 
+            <strong class="demo">123</strong>
+    </span>  
+</div> -->
+    <div></div>
+    <div class="demo"></div>
+    <div></div>
+<script>
+    var div=document.querySelectorAll('div');    //不是实时的,没有加入div
+    var demo=document.getElementsByClassName('demo')[0];
+    var newDiv=document.createElement('div');
+    document.body.appendChild(newDiv);
+    // var strong=document.querySelector('div>span strong');
+    // var strong1=document.querySelectorAll('div>span strong .demo');
+</script>
+</body>
+</html>
